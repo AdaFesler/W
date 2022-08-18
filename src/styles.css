@@ -1,0 +1,63 @@
+.container {
+  border-radius: 10px;
+  width: 60%;
+  margin-top: 40px;
+  padding: 40px;
+  background: rgb(243, 243, 243);
+}
+
+ul {
+  padding: 0;
+}
+li {
+  display: inline;
+  padding: 8px;
+}
+
+.form-control {
+  width: 100%;
+  border: none;
+}
+
+.temperature5days {
+  margin-top: 20px;
+}
+
+.weatherLisbon {
+  font-size: 36px;
+}
+.temperature28 {
+  margin-top: 20px;
+}
+.weather-in-Lisbon {
+  color: #878787;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #000000;
+}
+
+.forecast-day {
+  color: #bababa;
+  font-size: 13px;
+  font-weight: 400;
+}
+.forecast-temperature {
+  color: #bababa;
+  font-size: 13px;
+  font-weight: 400;
+}
+.fa-cloud-sun-rain {
+  font-size: 44px;
+  font-weight: 400;
+  display: block;
+}
+.col-2 {
+  padding: 0;
+  text-align: center;
+}

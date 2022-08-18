@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/14b8fe8580.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <ul class="navigation">
+          <li class="navigation-item">
+            <a href="/">Lisbon</a>
+          </li>
+          <li class="navigation-item">
+            <a href="/paris">Paris</a>
+          </li>
+          <li class="navigation-item">
+            <a href="/sydney">Sydney</a>
+          </li>
+          <li class="navigation-item">
+            <a href="/san-francisco">San Francisco</a>
+          </li>
+        </ul>
+      </header>
+
+
+      <form id="search-form">
+        <div class="row">
+            <div class="col-8">
+            <input
+              type="search"
+              class="form-control"
+              id="city-input"
+              placeholder="Your city"
+            /></div>
+            <div class="col-1">
+            <input type="submit" class=" btn btn-primary" value="Search"/>
+          </div>
+        </div>
+        </form>
+        
+      
+
+      <div class="weather-in-Lisbon">
+        <div class="weatherLisbon" id="city">
+          Lisbon
+        </div>
+        <div class="weather-thursday" id="date">Thursday 10:13</div>
+      </div>
+
+      <div class="temperature28">
+        <div class="row">
+          <div class="col-sm-6"">
+            <h1>28°C</h1>
+          </div>
+          <div class="col-sm-6">
+            <div class="precipitation">Precipitation: 53%</div>
+            <div class="wind">Wind: 3km/h</div>
+          </div>
+        </div>
+
+        <div class="temperature5days">
+          <div class="row">
+            <div class="col-2">
+                <div class="forecast-day">Fri</div>
+                <i class="fa-solid fa-cloud-showers-heavy"></i>
+                <div class="forecast-temperature">25°</div>
+            </div>
+            <div class="col-2">
+              <div class="forecast-day">Sat</div>
+              <i class="fa-solid fa-cloud-showers-heavy"></i>
+              <div class="forecast-temperature">25°</div>
+            </div>
+
+            <div class="col-2">
+              <div class="forecast-day">Sun</div>
+              <i class="fa-solid fa-cloud-showers-heavy"></i>
+  
+              <div class="forecast-temperature">20°</div>
+            </div>
+
+            <div class="col-2">
+              <div class="forecast-day">Mon</div>
+              <i class="fa-solid fa-sun"></i>
+              <div class="forecast-temperature">25°</div>
+            </div>
+
+            <div class="col-2">
+              <div class="forecast-day">Tue</div>
+              <i class="fa-solid fa-cloud-rain"></i>
+              <div class="forecast-temperature">25°</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="src/index.js"></script>
+    </div>
+  </body>
+</html>
